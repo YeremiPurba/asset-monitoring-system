@@ -4,12 +4,13 @@ $user = 'root';
 $pass = '';
 $db = 'asset_monitoring';
 
+//  membuka koneksi ke database
 $conn = mysqli_connect($host, $user, $pass, $db);
 
 if (!$conn) {
     die('Koneksi database gagal! ' . mysqli_connect_error());
 }
 
-echo 'Koneksi database berhasil!';
+// echo 'Koneksi database berhasil!';
 
 ?>
